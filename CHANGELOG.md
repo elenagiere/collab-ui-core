@@ -1,3 +1,46 @@
+# [10.30.0](https://github.com/collab-ui/collab-ui-core/compare/v10.29.1...v10.30.0) (2018-10-05)
+
+
+### Features
+
+* **contrast:** adding more contrasting value variations ([9a18da5](https://github.com/collab-ui/collab-ui-core/commit/9a18da5))
+* **contrast:** factoring out contrast values from list ([9af4a02](https://github.com/collab-ui/collab-ui-core/commit/9af4a02))
+
+## [10.29.1](https://github.com/collab-ui/collab-ui-core/compare/v10.29.0...v10.29.1) (2018-10-03)
+
+
+### Bug Fixes
+
+* **ng:** updates for collab-ui-ng ([4e1b581](https://github.com/collab-ui/collab-ui-core/commit/4e1b581))
+
+# [10.29.0](https://github.com/collab-ui/collab-ui-core/compare/v10.28.0...v10.29.0) (2018-10-03)
+
+
+### Features
+
+* **typeahead:** typeahead fixes - SPARK-29613 ([ab61612](https://github.com/collab-ui/collab-ui-core/commit/ab61612))
+
+# [10.28.0](https://github.com/collab-ui/collab-ui-core/compare/v10.27.0...v10.28.0) (2018-09-28)
+
+
+### Bug Fixes
+
+* **ng:** missing variables for ng styles ([3ba3963](https://github.com/collab-ui/collab-ui-core/commit/3ba3963))
+
+
+### Features
+
+* **checkbox:** add outline as the default checkbox ([a7b9e8b](https://github.com/collab-ui/collab-ui-core/commit/a7b9e8b))
+* **input:** add outline as the default input ([7b406ab](https://github.com/collab-ui/collab-ui-core/commit/7b406ab))
+* **radio:** add outline as the default radio ([ff4809d](https://github.com/collab-ui/collab-ui-core/commit/ff4809d))
+
+# [10.27.0](https://github.com/collab-ui/collab-ui-core/compare/v10.26.1...v10.27.0) (2018-09-26)
+
+
+### Features
+
+* **content-item:** add style to content-item ([b787fe8](https://github.com/collab-ui/collab-ui-core/commit/b787fe8))
+
 ## [10.26.1](https://github.com/collab-ui/collab-ui-core/compare/v10.26.0...v10.26.1) (2018-09-20)
 
 

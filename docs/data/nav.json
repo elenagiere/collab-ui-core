@@ -499,6 +499,45 @@
           }
         ]
       },
+
+      {
+        "name": "Content Item",
+        "component": "content-item",
+        "description": "Content Item provides file container",
+        "sections": [
+          {
+            "name": "Content Item",
+            "section": "default",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Content Item used in File View",
+            "section": "file",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Content Item Spinner",
+            "section": "spinner",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Content Item with different size",
+            "section": "size",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Failed to Load Content",
+            "section": "failed",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Icon File View",
+            "section": "icon",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        ]
+      },
+
       {
         "name": "Cards",
         "component": "card",
@@ -651,13 +690,28 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           },
           {
+            "name": "Contrast States",
+            "section": "contrast-states",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
             "name": "Dark States",
             "section": "dark-states",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           },
           {
+            "name": "Dark Contrast States",
+            "section": "dark-contrast-states",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
             "name": "Space List Item",
             "section": "space-states",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Space List Contrast Item",
+            "section": "space-contrast-states",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           },
           {
@@ -889,16 +943,6 @@
         "description": "Checkboxes allow the user to select multiple options from a set.",
         "sections": [
           {
-            "name": "States",
-            "section": "states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
-            "name": "Dark States",
-            "section": "dark-states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
             "name": "Basic Checkboxes",
             "section": "default",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -921,6 +965,16 @@
           {
             "name": "Nested Checkboxes",
             "section": "nested",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Outline (default) States",
+            "section": "states",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Filled States",
+            "section": "filled-states",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }
         ]
@@ -1009,26 +1063,6 @@
         "description": "Text inputs allow people to enter any combination of letters, numbers, or symbols of their choosing (unless otherwise restricted). Text input boxes can span single or multiple lines. A combination of form styles and the layout-grid means you can do almost anything.",
         "sections": [
           {
-            "name": "States",
-            "section": "states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
-            "name": "Contrast States",
-            "section": "contrast-states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
-            "name": "Dark States",
-            "section": "dark-states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
-            "name": "Dark Contrast States",
-            "section": "dark-contrast-states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
             "name": "Normal",
             "section": "default",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -1097,6 +1131,16 @@
             "name": "Nested Input",
             "section": "nested",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Outline (default) States",
+            "section": "states",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Filled States",
+            "section": "filled-states",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }
         ]
       },
@@ -1138,16 +1182,6 @@
         "description": "Radio buttons allow the user to select one option from a set.",
         "sections": [
           {
-            "name": "States",
-            "section": "states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
-            "name": "Dark States",
-            "section": "dark-states",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-          },
-          {
             "name": "Basic Radios",
             "section": "default",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -1165,6 +1199,16 @@
           {
             "name": "Nested Radios",
             "section": "nested",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Outline States",
+            "section": "states",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          },
+          {
+            "name": "Filled States",
+            "section": "filled-states",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }
         ]

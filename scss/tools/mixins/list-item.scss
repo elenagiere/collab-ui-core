@@ -188,6 +188,78 @@
   }
 }
 
+@mixin list-item--contrast(
+  $color--contrast: $list-item__color--contrast,
+  $color--dark--contrast: $list-item__color--dark--contrast,
+  $color--active--contrast: $list-item__color--contrast,
+  $color--dark--active--contrast: $list-item__color--dark--active--contrast,
+  $subheader-color--contrast: $list-item__color--subheader--contrast,
+  $subheader-color--dark--contrast: $list-item__color--subheader--dark--contrast,
+  $background-color--contrast: $list-item__background--contrast,
+  $background-color--dark--contrast: $list-item__background--dark--contrast,
+  $background-color--hover--contrast: $list-item__background--hover--contrast,
+  $background-color--hover--dark--contrast: $list-item__background--hover--dark--contrast,
+  $background-color--active--contrast: $list-item__background--active--contrast,
+  $background-color--active--dark--contrast: $list-item__background--active--dark--contrast
+) {
+  .#{$contrast-class} & {
+    color: $color--contrast;
+    background-color: $background-color--contrast;
+  }
+  .#{$contrast-class}.#{$dark-class} & ,
+  .#{$contrast-class} .#{$dark-class} & {
+    color: $color--dark--contrast;
+    background-color: $background-color--dark--contrast;
+  }
+
+  .#{$list-item__class} {
+    &__header {
+      .#{$contrast-class} & {
+        color: $subheader-color--contrast;
+      }
+      .#{$contrast-class}.#{$dark-class} & ,
+      .#{$contrast-class} .#{$dark-class} & {
+        color: $subheader-color--dark--contrast;
+      }
+    }
+
+    &__subheader {
+      .#{$contrast-class} & {
+        color: $subheader-color--contrast;
+      }
+      .#{$contrast-class}.#{$dark-class} & ,
+      .#{$contrast-class} .#{$dark-class} & {
+        color: $subheader-color--dark--contrast;
+      }
+    }
+  }
+
+  &:hover:not(.disabled):not(.#{$list-item__class}--read-only) {
+    .#{$contrast-class} & {
+      color: $color--contrast;
+      background-color: $background-color--hover--contrast;
+    }
+    .#{$contrast-class}.#{$dark-class} & ,
+    .#{$contrast-class} .#{$dark-class} & {
+      color: $color--dark--contrast;
+      background-color: $background-color--hover--dark--contrast;
+    }
+  }
+
+  &:active,
+  &.active {
+    .#{$contrast-class} & {
+      color: $color--active--contrast;
+      background-color: $background-color--active--contrast;
+    }
+    .#{$contrast-class}.#{$dark-class} & ,
+    .#{$contrast-class} .#{$dark-class} & {
+      color: $color--dark--active--contrast;
+      background-color: $background-color--active--dark--contrast;
+    }
+  }
+}
+
 @mixin list-item-color(
   $active-bgrd-color: $list-item__background--pressed,
   $background-color: $list-item__background,
