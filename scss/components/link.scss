@@ -69,6 +69,7 @@
       );
     }
 
+    .#{$dark-class} &,
     &--dark {
       &.#{$cui}-link {
         &--blue {

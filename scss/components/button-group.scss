@@ -97,7 +97,7 @@
         }
       }
     }
-
+    .#{$dark-class} &,
       &--dark {
         > .#{$button__class} {
 

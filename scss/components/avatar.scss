@@ -44,6 +44,7 @@
       @include flex;
     }
 
+    .#{$dark-class} &,
     &.#{$avatar__class}--dark {
       &.#{$avatar__class}--active:after {
         box-shadow: $avatar--active__shadow--dark;
