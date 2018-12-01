@@ -1,3 +1,64 @@
+# [10.38.0](https://github.com/collab-ui/collab-ui-core/compare/v10.37.5...v10.38.0) (2018-11-30)
+
+
+### Features
+
+* **tabs:** Updating tabs to fix justified tabs and nav-tabs - SPARK-29316 ([d278487](https://github.com/collab-ui/collab-ui-core/commit/d278487))
+
+## [10.37.5](https://github.com/collab-ui/collab-ui-core/compare/v10.37.4...v10.37.5) (2018-11-28)
+
+
+### Bug Fixes
+
+* **modal:** update modal-body padding ([26b17c0](https://github.com/collab-ui/collab-ui-core/commit/26b17c0))
+
+## [10.37.4](https://github.com/collab-ui/collab-ui-core/compare/v10.37.3...v10.37.4) (2018-11-27)
+
+
+### Bug Fixes
+
+* **alert:** styling in wrong place to be applied to all alert types - SPARK-29316 ([2aed730](https://github.com/collab-ui/collab-ui-core/commit/2aed730))
+
+## [10.37.3](https://github.com/collab-ui/collab-ui-core/compare/v10.37.2...v10.37.3) (2018-11-26)
+
+
+### Bug Fixes
+
+* **modals:** update min-height to auto ([7b7c5eb](https://github.com/collab-ui/collab-ui-core/commit/7b7c5eb))
+
+## [10.37.2](https://github.com/collab-ui/collab-ui-core/compare/v10.37.1...v10.37.2) (2018-11-26)
+
+
+### Bug Fixes
+
+* **modal:** fix flex height issue on vertically short screens ([60e55c2](https://github.com/collab-ui/collab-ui-core/commit/60e55c2))
+
+## [10.37.1](https://github.com/collab-ui/collab-ui-core/compare/v10.37.0...v10.37.1) (2018-11-21)
+
+
+### Bug Fixes
+
+* **page-sub-header:** fix padding for flex ([ffe3e0e](https://github.com/collab-ui/collab-ui-core/commit/ffe3e0e))
+
+# [10.37.0](https://github.com/collab-ui/collab-ui-core/compare/v10.36.2...v10.37.0) (2018-11-20)
+
+
+### Bug Fixes
+
+* **content-item:** fix alignment when title/subtitle is null ([8ac6384](https://github.com/collab-ui/collab-ui-core/commit/8ac6384))
+
+
+### Features
+
+* **alert:** Updating alerts for use in Atlas - SPARK-29316 ([db91c23](https://github.com/collab-ui/collab-ui-core/commit/db91c23))
+
+## [10.36.2](https://github.com/collab-ui/collab-ui-core/compare/v10.36.1...v10.36.2) (2018-11-19)
+
+
+### Bug Fixes
+
+* **modal:** move modal-padding properties to a mixin ([e6e85eb](https://github.com/collab-ui/collab-ui-core/commit/e6e85eb))
+
 ## [10.36.1](https://github.com/collab-ui/collab-ui-core/compare/v10.36.0...v10.36.1) (2018-11-16)
 
 
